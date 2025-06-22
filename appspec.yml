@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: .
-    destination: /home/app
+  - source: /
+    destination: /root/app
 hooks:
   AfterInstall:
     - location: deploy.sh
