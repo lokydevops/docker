@@ -14,5 +14,5 @@ artifacts:
     - app.py
     - requirements.txt
     - appspec.yml
-    - deploy.s
-  discard-paths: yesh
+    - deploy.sh
+  discard-paths: yes
